@@ -1,0 +1,62 @@
+# Networking Basics
+
+## 🌐 OSI Model (Open Systems Interconnection)
+The OSI model describes how data moves through a network in 7 layers:
+
+1. Application  
+2. Presentation  
+3. Session  
+4. Transport  
+5. Network  
+6. Data Link  
+7. Physical  
+
+---
+
+## 🌍 TCP/IP Model
+TCP/IP stands for Transmission Control Protocol / Internet Protocol.
+
+### Layers:
+1. Application  
+2. Transport  
+3. Internet  
+4. Network Interface  
+
+---
+
+## 📡 Important Networking Terms
+
+### ACK (Acknowledgment)
+A signal used in TCP to confirm that data was received successfully.
+
+### SYN (Synchronize)
+Used in TCP connection setup to start a connection between two devices.
+
+---
+
+## 🌐 DNS (Domain Name System)
+
+DNS is responsible for translating domain names into IP addresses.
+
+### 🧠 DNS Process Questions:
+
+**1. What is the first DNS server your computer queries?**  
+👉 Recursive Resolver  
+
+---
+
+**2. What type of DNS server contains records for domain extensions (like .com, .org, .uk)?**  
+👉 Top-Level Domain (TLD) DNS Server  
+
+---
+
+**3. Where does your computer first look for a domain IP address?**  
+👉 Hosts file  
+
+---
+
+## 🧠 Summary
+Networking is the foundation of cybersecurity. Understanding OSI, TCP/IP, and DNS is essential for security, bug bounty, and network analysis.
+
+
+
