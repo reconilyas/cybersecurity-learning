@@ -1,0 +1,109 @@
+    # TCP/IP Services, Tools & Commands
+
+---
+
+# TCP/IP Services
+
+## Character Generator (CHARGEN)
+
+The Character Generator Protocol (CHARGEN) is used for testing and troubleshooting network connections.
+
+### Purpose
+- Generates a continuous stream of characters
+- Used for network testing and diagnostics
+
+---
+
+## Daytime
+
+Returns the current date and time from a server.
+
+---
+
+## Echo
+
+Returns the same data that was received.
+
+### Purpose
+- Testing connectivity
+- Verifying communication between devices
+
+---
+
+## Discard
+
+Accepts incoming data and silently discards it.
+
+### Purpose
+- Network testing
+- Performance measurements
+
+---
+
+## Quote of the Day (QOTD)
+
+Returns a short text message or quotation.
+
+Originally used for testing and informational purposes.
+
+---
+
+# TCP/IP Tools & Commands
+
+## Ping
+
+Tests connectivity between two devices using ICMP Echo Request and Echo Reply.
+
+Common option:
+
+- `ping -t` → Sends ping requests continuously (Windows)
+
+---
+
+## Traceroute (tracert)
+
+Displays the path that packets take to reach a destination.
+
+Used to:
+- Identify routing paths
+- Locate where a connection fails
+- Troubleshoot network delays
+
+---
+
+## Protocol Analyzer
+
+Captures and analyzes network traffic.
+
+Common uses:
+- Filter network protocols
+- Inspect packets
+- Troubleshoot network problems
+
+Example:
+- Wireshark
+
+---
+
+## Port Scanner
+
+Scans a device to identify open ports and running services.
+
+Common uses:
+- Security assessments
+- Network auditing
+- Finding unnecessary open ports
+
+Example:
+- Nmap
+
+---
+
+## ARP (Address Resolution Protocol)
+
+Maps an IPv4 address to a MAC address on a local network.
+
+Example:
+
+
+       

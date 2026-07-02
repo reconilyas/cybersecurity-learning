@@ -1,0 +1,50 @@
+# VLANs & SOHO Networks
+
+---
+
+# VLAN (Virtual Local Area Network)
+
+A VLAN (Virtual Local Area Network) is a logical network that allows devices to be separated into different broadcast domains while using the same physical network infrastructure.
+
+### Benefits
+- Improves network security
+- Reduces broadcast traffic
+- Simplifies network management
+- Allows multiple logical networks on a single physical switch
+
+---
+
+## VLAN Membership Types
+
+### Protocol-Based VLAN
+Devices are assigned to a VLAN based on their network protocol (such as IP).
+
+---
+
+### Port-Based VLAN
+Devices are assigned to a VLAN based on the switch port they are connected to.
+
+This is the most common VLAN implementation.
+
+---
+
+### MAC Address-Based VLAN
+Devices are assigned to a VLAN according to their MAC address, regardless of which switch port they use.
+
+---
+
+# SOHO (Small Office / Home Office)
+
+SOHO refers to small office or home office networks.
+
+### Characteristics
+- Typically supports 1–10 devices
+- Usually uses a single router
+- Easy to install and manage
+- Common in homes and small businesses
+
+---
+
+## 🧠 Summary
+
+VLANs improve security and organization by creating separate logical networks on the same physical infrastructure. SOHO networks are small, simple networks designed for homes and small offices.

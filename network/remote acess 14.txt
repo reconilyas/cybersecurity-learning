@@ -1,0 +1,116 @@
+ # Remote Networking & Remote Access
+
+---
+
+# Remote Networking
+
+Remote networking allows users to connect to a network without being physically present on the local network.
+
+This is commonly used for:
+- Remote work
+- Remote administration
+- Accessing company resources from different locations
+
+---
+
+## VPN (Virtual Private Network)
+
+A VPN creates an encrypted tunnel over a public network (such as the Internet), allowing secure communication with a private network.
+
+### Benefits
+- Secure remote access
+- Encrypts network traffic
+- Protects data over public networks
+
+---
+
+## Authentication Servers
+
+### RADIUS (Remote Authentication Dial-In User Service)
+
+RADIUS provides:
+- Authentication
+- Authorization
+- Accounting (AAA)
+
+It verifies whether a user is allowed to access network resources.
+
+---
+
+### TACACS+
+
+TACACS+ is another AAA protocol used for network device administration.
+
+Compared to RADIUS, TACACS+:
+- Encrypts the entire authentication packet
+- Provides more detailed authorization
+- Is commonly used for managing network devices
+
+---
+
+## Directory Services
+
+Authentication servers often verify users against a directory service such as **Active Directory**, which stores user accounts, groups, and permissions.
+
+---
+
+# Remote Access Methods
+
+## Telnet
+
+- Protocol: Telnet
+- Port: TCP 23
+
+Used for remote command-line access.
+
+> **Note:** Telnet is **not encrypted** and is considered insecure.
+
+---
+
+## SSH (Secure Shell)
+
+- Protocol: SSH
+- Port: TCP 22
+
+Provides secure encrypted remote access.
+
+---
+
+## RDP (Remote Desktop Protocol)
+
+- Protocol: RDP
+- Port: TCP 3389
+
+Allows users to remotely control a Windows computer through a graphical interface.
+
+---
+
+## VNC (Virtual Network Computing)
+
+- Protocol: VNC
+- Default Port: TCP 5900+
+
+Allows remote graphical desktop access across different operating systems.
+
+---
+
+## FTP (File Transfer Protocol)
+
+- Port: TCP 21
+
+Used to transfer files between systems.
+
+---
+
+## SFTP (SSH File Transfer Protocol)
+
+- Runs over SSH
+- Port: TCP 22
+
+Provides secure file transfers using encryption.
+
+---
+
+## 🧠 Summary
+
+Remote networking enables secure access to private networks from anywhere. Technologies such as VPN, RADIUS, TACACS+, SSH, RDP, and SFTP are essential for secure remote administration and communication.

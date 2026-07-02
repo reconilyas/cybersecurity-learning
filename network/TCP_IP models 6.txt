@@ -1,0 +1,94 @@
+# TCP/IP Model & Encapsulation
+
+---
+
+## 🌐 TCP/IP (Transmission Control Protocol / Internet Protocol)
+
+The TCP/IP model is a networking framework used to transmit data over networks and the internet.
+
+---
+
+## 📦 Encapsulation & De-encapsulation
+
+### 🔹 Encapsulation (Top → Bottom)
+Process of adding headers as data moves down the layers.
+
+### 🔹 De-encapsulation (Bottom → Top)
+Process of removing headers as data is received and passed up the layers.
+
+---
+
+## 🧱 TCP/IP Model Layers
+
+### 🔹 1. Application Layer  
+(OSI: Application + Presentation + Session)
+
+- Data is processed here  
+- Handles encryption, compression, and formatting  
+- Ensures data is ready for applications  
+
+---
+
+### 🔹 2. Transport Layer  
+(OSI: Transport Layer)
+
+- Data unit: **Segments**  
+- Responsible for segmentation  
+- Uses TCP or UDP  
+
+---
+
+### 🔹 3. Internet Layer  
+(OSI: Network Layer)
+
+- Data unit: **Packets / Datagrams**  
+- Handles IP addressing and routing  
+- May fragment data if packet size is too large  
+- Issues like packet loss can occur (no response or delivery failure)
+
+---
+
+### 🔹 4. Network Interface Layer  
+(OSI: Data Link + Physical)
+
+- Data unit: **Frames**  
+- Handles physical transmission of data  
+- Maps data for sending over physical media (cables, WiFi)
+
+---
+
+## 📡 TCP (Transmission Control Protocol)
+
+### Characteristics:
+- Connection-oriented  
+- Reliable delivery (uses acknowledgment and retransmission)  
+- Slower than UDP  
+- Uses:
+  - SYN → synchronize  
+  - ACK → acknowledgment  
+
+### Features:
+- Flow control  
+- Reliability  
+- Segmentation of data  
+
+---
+
+## ⚡ UDP (User Datagram Protocol)
+
+### Characteristics:
+- Connectionless  
+- Best-effort delivery  
+- Does not confirm data reception  
+- Faster than TCP  
+
+---
+
+## 🧩 FCS (Frame Check Sequence)
+- Used to detect errors in transmitted frames  
+- Ensures data integrity at the data link layer  
+
+---
+
+## 🧠 Summary
+TCP/IP is the core model of internet communication. It defines how data is encapsulated, transmitted, and received across networks using layers, protocols, and error handling mechanisms.
